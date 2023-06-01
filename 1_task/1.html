@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="1.css">
+    <title>1_task</title>
+</head>
+<body>
+    <label for="length">Довжина рядка:</label>
+    <input type="number" id="length" min="1" value="10"><br><br>
+    
+    <label for="digits">Включити цифри:</label>
+    <input type="checkbox" id="digits" checked><br>
+    
+    <label for="uppercase">Включити латинські літери у верхньому регістрі:</label>
+    <input type="checkbox" id="uppercase" checked><br>
+    
+    <label for="lowercase">Включити латинські літери у нижньому регістрі:</label>
+    <input type="checkbox" id="lowercase" checked><br><br>
+    
+    <button id="generate">Generate</button><br><br>
+    
+    <textarea id="result" rows="5" cols="50" readonly></textarea>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="1.js"></script>
+</body>
+</html>

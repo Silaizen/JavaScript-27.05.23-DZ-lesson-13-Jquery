@@ -1,0 +1,34 @@
+body{
+    background-color: #FBF2E9;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+  }
+
+  label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+  }
+
+  input[type="number"], input[type="checkbox"], button {
+    margin-top: 5px;
+  }
+
+  button {
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+  textarea {
+    margin-top: 10px;
+    width: 100%;
+    resize: vertical;
+  }
